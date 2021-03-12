@@ -17,12 +17,15 @@ const API = {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
+      
     });
 
     const json = await res.json();
-
+    // console.log(json)
     return json;
+
   },
+
   async createWorkout(data = {}) {
     const res = await fetch("/api/workouts", {
       method: "POST",
@@ -36,7 +39,7 @@ const API = {
   },
 
   async getWorkoutsInRange() {
-    const res = await fetch(`/api/workouts/range`);
+    const res = await fetch("/api/workouts/range");
     const json = await res.json();
 
     return json;

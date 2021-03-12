@@ -1,31 +1,27 @@
-const express = require("express");
-const logger = require("morgan");
+const express = require('express');
 const mongoose = require("mongoose");
-
-const PORT = process.env.PORT || 8080;
-
-const User = require("./userModel.js");
 const app = express();
 
-app.use(logger("dev"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/userdb", { useNewUrlParser: true });
 
-app.post("/submit", ({body}, res) => {
-  User.create(body)
-    .then(dbUser => {
-      res.json(dbUser);
-    })
-    .catch(err => {
-      res.json(err);
-    });
+const PORT = process.env.PORT || 3000;
+
+// connect to MongoDB
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+  useNewUrlParser: true,
+  useFindAndModify: false,
 });
 
+// calls routes file 
+app.use(require("./routes/workout"))
+app.use(require("./routes/html"))
+
+
 app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
+    console.log(`==> 🌎  Listening on port ${PORT}. Visit http://localhost:${PORT} in your browser.`);
 });
