@@ -8,8 +8,8 @@ var router = express.Router()
 const db = require('../models');
 
 router.post("/api/workouts", async (req, res) => {
-    await db.Workout.create({})
-
+    const neww = await db.Workout.create({})
+res.json(neww)
 })
 
 
@@ -44,7 +44,7 @@ router.get("/api/workouts/range", async (req, res) => {
     .sort({_id:-1})
     .limit(7)
     .then((dbWorkouts) => {
-        // console.log(dbWorkouts);
+
         res.json(dbWorkouts);
     })
 
