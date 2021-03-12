@@ -9,19 +9,16 @@
 
 A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-## Acceptance Criteria
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+## Screenshots:
 
-The user should be able to:
+The following pictures show the web application's appearance and functionality:
 
-  * Add exercises to the most recent workout plan.
+![User](./public/assets/user.jpg)
 
-  * Add new exercises to a new workout plan.
+![Tracker](./public/assets/tracker.jpg)
 
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
-
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
+![Dashboard](./public/assets/dashboard.jpg)
 
   ## Link
 
