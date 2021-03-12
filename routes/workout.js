@@ -8,10 +8,14 @@ var router = express.Router()
 const db = require('../models');
 
 router.post("/api/workouts", async (req, res) => {
-    const neww = await db.Workout.create({})
-res.json(neww)
+    db.Workout.create({})
+    .then((dbWorkout) => {
+      res.json(dbWorkout);
+    })
+    .catch((err) => {
+      res.json(err);
+    });
 })
-
 
 router.get("/api/workouts", (req, res) => {
 
