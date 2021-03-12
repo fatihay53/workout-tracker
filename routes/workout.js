@@ -41,7 +41,13 @@ router.get("/api/workouts/range", async (req, res) => {
             },
         },
     ])
-    res.json(data)
+    .sort({_id:-1})
+    .limit(7)
+    .then((dbWorkouts) => {
+        // console.log(dbWorkouts);
+        res.json(dbWorkouts);
+    })
+
 
 })
 
