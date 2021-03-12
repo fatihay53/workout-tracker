@@ -35,14 +35,12 @@ const workoutSchema = new Schema({
         type: Number
       }
     }
-  ]
-},
-{
-  toJSON: {
-      virtuals: true
+  ],
+  totalDuration: {
+    type: Number,
+    default: 0,
   }
-}
-);
+});
 
 const Workout = mongoose.model('Workout', workoutSchema);
 

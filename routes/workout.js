@@ -7,40 +7,59 @@ var router = express.Router()
 // load the data model schema
 const db = require('../models');
 
-router.post ("/api/workouts", async (req,res)=>{
+router.post("/api/workouts", async (req, res) => {
     await db.Workout.create({})
-    return
+
 })
 
 
-router.get("/api/workouts", async (req,res)=>{
-    const data = await db.Workout.find({})
+router.get("/api/workouts", (req, res) => {
+
+    db.Workout.find({}).then(dbWorkout => {
+        dbWorkout.forEach(workout => {
+            let total = 0;
+            workout.exercises.forEach(data => {
+                total += data.duration;
+            });
+            workout.totalDuration = total;
+        });
+
+        res.json(dbWorkout);
+    }).catch(err => {
+        res.json(err);
+    });
+});
+
+
+router.get("/api/workouts/range", async (req, res) => {
+    const data = await db.Workout.aggregate([
+        {
+            $addFields: {
+                totalDuration: {
+                    $sum: "$exercises.duration",
+                },
+            },
+        },
+    ])
     res.json(data)
-    // console.log(data)
+
 })
 
 
-router.get("/api/workouts/range", async (req,res)=>{
-    const data = await db.Workout.find()
-    res.json(data)
-    
-})
-
-
-router.put("/api/workouts/:id", async (req,res)=>{
+router.put("/api/workouts/:id", async (req, res) => {
     let id = req.params.id
     let data = req.body
-    console.log(data)
-    console.log(id)
-    const file = await db.Workout.findOneAndUpdate (
-        {_id:id},
+
+    const file = await db.Workout.findOneAndUpdate(
+        { _id: id },
         {
-           $push:{exercises:data}
+            $inc: { totalDuration: data.duration },
+            $push: { exercises: data }
         },
         { new: true, runValidators: true }
     )
-      const result = await file.save();
-      res.json(result);
+    const result = await file.save();
+    res.json(result);
 })
 
 // router.delete
