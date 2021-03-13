@@ -1,9 +1,9 @@
 
 <h1 align="center", margin="2%">                        🏋️‍♀️ Fitness/Workout Tracker 🏋🏾‍♂️</h1>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][1]
+[![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)][M]
 
-[1]:https://opensource.org/licenses/MIT
+[M]:https://opensource.org/licenses/MIT
 
 <h1>Description</h1>
 
