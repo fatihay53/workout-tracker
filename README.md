@@ -33,10 +33,13 @@
 <img  src="./public/assets/user.jpg" width="75%" height="500px">
 </p>
 
+<p align="center">
 <img src="./public/assets/tracker.jpg" width="75%" height="500px">
+</p>
 
+<p align="center">
 <img src="./public/assets/dashboard.jpg" width="75%" height="500px">
-
+</p>
 ## Installation:
     1️⃣ Clone repository to your local ✔
     2️⃣ Run npm packages in (package.json) file ✔
