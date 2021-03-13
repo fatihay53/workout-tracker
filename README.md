@@ -2,10 +2,9 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
-<h1 style="text-align:center;margin:2%">                        🏋️‍♀️ Fitness/Workout Tracker 🏋🏾‍♂️</h1>
+<h1 align="center", margin="2%">                        🏋️‍♀️ Fitness/Workout Tracker 🏋🏾‍♂️</h1>
 
 ![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)
-
 
 <h1>Description</h1>
 
@@ -73,11 +72,11 @@
 
 
 
-⇨ [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1][![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][2] ⇦  
+⇨ [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1][![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][2]⇦  
+
+
 
 [1]: https://github.com/fatihay53
 [2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181/
-
-
 
 </h1>
