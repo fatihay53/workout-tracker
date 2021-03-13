@@ -85,8 +85,8 @@
 [2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181/
 [3]: f.sultanay@gmail.com
 
-<a target="_blank" href="https://github.com/fatihay53"> <i id="gitt"
-                                class="fab fa-github-square"></i> </a>
+<a target="_blank" href="mailto: f.sultanay@gmail.com"> <i id="gitt"
+                                class="fab fa-google plus g icon"></i></a>
 </h1>
 
 
