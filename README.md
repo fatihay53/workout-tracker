@@ -70,13 +70,13 @@
 <h1>
      For questions ❓
 
-<div> ⇨
+⇨
 
 <a style="font-size:50px;color:white" target="_blank" href="https://github.com/fatihay53"> <i id="gitt" 
                                 class="fab fa-github-square"> </i> </a> <a style="font-size:50px;color:white" target="_blank" href="https://www.linkedin.com/in/fatih-sultan-ay-211689181/"> <i id="gitt"
                                 class="fab fa-linkedin in icon"></i> </a> <a style="font-size:50px;color:white" target="_blank" href="mailto: f.sultanay@gmail.com"> <i id="gitt"
                                 class="fab fa-google plus g icon"></i></a>  ⇦  
-    </div>                            
+                               
 </h1>
 
 
