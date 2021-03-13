@@ -29,8 +29,9 @@
 
 ## Demo:
 
-<img src="./public/assets/user.jpg" width="75%" height="500px">
-
+<p align="center">
+<img  src="./public/assets/user.jpg" width="75%" height="500px">
+</p>
 
 <img src="./public/assets/tracker.jpg" width="75%" height="500px">
 
