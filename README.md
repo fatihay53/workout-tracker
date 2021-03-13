@@ -68,7 +68,7 @@
 
 </h1>
 
-## ☆ Questions:
+## Questions:
    
 <h1 align="center">
 
@@ -84,7 +84,6 @@
 [1]: https://github.com/fatihay53
 [2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181
 [3]: mailto:f.sultanay@gmail.com
-
 
 
 </h1>
