@@ -84,7 +84,7 @@
      For questions ❓ 
 
                               
-[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1]
+[![github](https://user-images.githubusercontent.com/77207167/111052614-58e7a100-842a-11eb-834d-21aa5fa25e2e.png)][1]
 [![linkedin](https://user-images.githubusercontent.com/77207167/111052328-d362f180-8427-11eb-93b2-db395a9da005.png)][2]
 [![Gmail](https://user-images.githubusercontent.com/77207167/111044783-9e02d780-8418-11eb-80c7-65c663549a9e.png)][3] 
 
