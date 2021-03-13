@@ -2,7 +2,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
-<h1 style="text-align:center;margin:2%">                        🏋️‍♀️ Fitness/Workout Tracker 🏋🏾‍♂️</h1>
+<h1 style="align:center;margin:2%">                        🏋️‍♀️ Fitness/Workout Tracker 🏋🏾‍♂️</h1>
 
 ![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)
 
