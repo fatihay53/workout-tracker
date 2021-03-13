@@ -30,7 +30,7 @@
 
 ## Demo:
 
-<img src="./public/assets/user.jpg" style="heigh:50%" width="50%" height="500px">
+<img src="./public/assets/user.jpg" style="heigh:50%" width="75%" height="500px">
 
 
 <img src="./public/assets/tracker.jpg" width="50%" height="500px">
