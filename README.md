@@ -70,7 +70,8 @@
 
 ## ☆ Questions:
    
-<h1>
+<h1 align="center">
+
      For questions ❓ 
 
                               
@@ -83,6 +84,7 @@
 [1]: https://github.com/fatihay53
 [2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181/
 [3]: f.sultanay@gmail.com
+
 
 </h1>
 
