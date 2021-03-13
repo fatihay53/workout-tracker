@@ -68,19 +68,19 @@
 ## ☆ Questions:
    
 <h1>
-     For questions ❓
+     For questions ❓ 
 
-⇨
-    <a style="font-size:50px;color:white" target="_blank" href="https://github.com/fatihay53"> <i id="gitt" 
-                                class="fab fa-github-square"> </i> </a> <a style="font-size:50px;color:white" target="_blank" href="https://www.linkedin.com/in/fatih-sultan-ay-211689181/"> <i id="gitt"
-                                class="fab fa-linkedin in icon"></i> </a> <a style="font-size:50px;color:white" target="_blank" href="mailto: f.sultanay@gmail.com"> <i id="gitt"
-                                class="fab fa-google plus g icon"></i></a>  ⇦  
                               
+
+
+
+
+⇨ [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1][![facebook](https://cloud.githubusercontent.com/assets/17016297/18839836/0a06deb4-83d2-11e6-8078-1d0974af0f63.png)][2][![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][3] ⇦  
+
+[1]: https://github.com/fatihay53
+[2]: https://www.linkedin.com/in/fatih-sultan-ay-211689181/
+[3]: https://www.facebook.com/nomi.vos
+
+
+
 </h1>
-
-
-[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1][![facebook](https://cloud.githubusercontent.com/assets/17016297/18839836/0a06deb4-83d2-11e6-8078-1d0974af0f63.png)][2][![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][3]
----
-
-
-
