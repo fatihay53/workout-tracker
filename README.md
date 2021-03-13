@@ -1,25 +1,81 @@
-# Unit 17 NoSQL Homework: Workout Tracker
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
 
-## User Story
+<h1 style="text-align:center;margin:2%"> 🏋️‍♀️ Fitness/Workout Tracker 🏋🏾‍♂️</h1>
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
-
-## Business Context
-
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+![GitHub license](https://img.shields.io/badge/license-MIT2.0-blue.svg)
 
 
-## Screenshots:
+<h1>Description</h1>
 
-The following pictures show the web application's appearance and functionality:
+    This application can be used help user to track daily workout/exercise. All information will be saved and user will be able to continue to exercise where they left.
+    A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-![User](./public/assets/user.jpg)
 
-![Tracker](./public/assets/tracker.jpg)
+<h1> Table of Contents </h1>
 
-![Dashboard](./public/assets/dashboard.jpg)
+* [Demo](#Demo)
 
-  ## Link
+* [Installation](#installation)
+  
+* [Usage](#usage)
 
-  [please click here](https://workout-tracker-wt.herokuapp.com/?id=604bc2e39f8372001595267b)
+
+* [License](#license)
+
+ 
+* [Questions](#Questions)
+
+
+## Demo:
+
+<img src="./public/assets/user.jpg" style="heigh:50%" width="50%" height="500px">
+
+
+<img src="./public/assets/tracker.jpg" width="50%" height="500px">
+
+
+
+<img src="./public/assets/dashboard.jpg" width="50%" height="500px">
+
+## Installation:
+    1️⃣ Clone repository to your local ✔
+    2️⃣ Run npm packages in (package.json) file ✔
+    3️⃣ Run Npm run seed(seeders folder❗️) to create user to your local mongoDB database ✔
+    4️⃣ Run 'Node server' or 'npm start' to start application ✔
+##  Usage:
+    1️⃣ After running server ✔
+    2️⃣ Choose a type of exercise that you want to do ✔
+    3️⃣ You have to fill atleast type exercise,name of exercise and duration time ❗️    
+    4️⃣ Save your exercise/workout ✔
+    5️⃣ Be able to see all work by clicking dasboard ✔
+
+##  License:
+    This project is licensed under the MIT license.
+
+    For more information about the license, click on the link below.
+
+<h1>
+<div  style="font-size:50px">  
+
+©  ![license](https://img.shields.io/badge/license-MIT-green.svg)
+
+</div>
+
+</h1>
+
+## ☆ Questions:
+   
+<h1>
+     For questions ❓
+     <div style="text-align:center"> ⇨
+    <a style="font-size:50px;color:white" target="_blank" href="https://github.com/fatihay53"> <i id="gitt" 
+                                class="fab fa-github-square"> </i> </a> <a style="font-size:50px;color:white" target="_blank" href="https://www.linkedin.com/in/fatih-sultan-ay-211689181/"> <i id="gitt"
+                                class="fab fa-linkedin in icon"></i> </a> <a style="font-size:50px;color:white" target="_blank" href="mailto: f.sultanay@gmail.com"> <i id="gitt"
+                                class="fab fa-google plus g icon"></i></a>  ⇦  
+    </div>                            
+</h1>
+
+
+
