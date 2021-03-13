@@ -63,9 +63,9 @@
 <h1>
 <div  style="font-size:50px">  
 
-©  [![license](https://img.shields.io/badge/license-MIT-green.svg)][1]
+©  [![license](https://img.shields.io/badge/license-MIT-green.svg)][m]
 
-[1]: https://opensource.org/licenses/mit
+[m]: https://opensource.org/licenses/mit
 
 </div>
 
